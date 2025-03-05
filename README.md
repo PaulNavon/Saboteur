@@ -1,6 +1,6 @@
 <font color="#609">
 
-# Galactic Saboteur Project
+# Saboteur Space Edition Project
 
 ![Game First Screen](images/README/StartScreen.png)
 
