@@ -1,8 +1,6 @@
 <font color="#609">
 
-<code>
-Galactic Saboteur Project
-</code>
+# Galactic Saboteur Project
 
 ![Game First Screen](images/README/StartScreen.png)
 
@@ -28,12 +26,22 @@ After selecting the number of players, you can select your username with your ke
 
 You can also select your super astronaut character : Superman, Skateboarder, Dreamer, Burger Lover and Sushi Man !
 
-| Astronaut1 | Astronaut2 | Astronaut3 | Astronaut4 | Astronaut5 |
-|---|---|---|---|---|
-| ![Astronaut1](images/Character/Character%201.png) | ![Astronaut2](images/Character/Character%202.png) | ![Astronaut3](images/Character/Character%203.png) | ![Astronaut4](images/Character/Character%204.png) | ![Astronaut5](images/Character/Character%205.png) |
-
-
-
+<table>
+  <tr>
+    <th>Superman</th>
+    <th>Skateboarder</th>
+    <th>Dreamer</th>
+    <th>Burger Lover</th>
+    <th>Sushi Man</th>
+  </tr>
+  <tr>
+    <td><img src="images/Character/Character%201.png" alt="Superman" style="max-width: 100px; max-height: 100px;"></td>
+    <td><img src="images/Character/Character%202.png" alt="Skateboarder" style="max-width: 100px; max-height: 100px;"></td>
+    <td><img src="images/Character/Character%203.png" alt="Dreamer" style="max-width: 100px; max-height: 100px;"></td>
+    <td><img src="images/Character/Character%204.png" alt="Burger Lover" style="max-width: 100px; max-height: 100px;"></td>
+    <td><img src="images/Character/Character%205.png" alt="Sushi Man" style="max-width: 100px; max-height: 100px;"></td>
+  </tr>
+</table>
 
 After, you can choose how many games you would like to play.
 
@@ -41,6 +49,7 @@ After, you can choose how many games you would like to play.
 
 The game starts and for each player, as it is a local game, we added a break where you have to press a key on the keyboard to continue. 
 Sometimes, it isn't taking into account you press a key, so make sure you are still on the game window by clicking with your mouse.
+
 ![Break](images/README/Break.png)
 
 CAPTAIN can start the game, and you'll see the board you'll be interacting with.
@@ -53,7 +62,7 @@ On the left, you can see the player, and the one who is playing has his card rev
 On the board, you will the starting line with the earth and on the right 3 hidden planets with crystals.
 If a player gives you a debuff, it will appear on the "PLAYERS DEBUFF" area.
 
-![GamePlay](images/README/GamePlay.png)
+![GamePlay](images/README/Gameplay.png)
 
 Finally, it's the end of the round, you will know who was the sabotor during the round.
 
@@ -91,7 +100,6 @@ The player with the most crystals at the end of all rounds wins the game.
 - **1 starting card** (showing Earth).
 - **3 arrival cards** (planets).
 - Players must create a path from the starting card to one of the planets.
-
 
 #### **Gameplay:**
 
@@ -157,17 +165,16 @@ Within these subfolders, you will find the following sub-subfolders:
 
 ## Problems and improvements
 
-The game has somme issues regarding loading games.
-We do not recommand quitting game by expecting to play them later.
+The game has some issues with loading saved progress. We do not recommend quitting the game with the intention of resuming it later.
 
-You can change the game resolution but the full screen game play is laggy and the game mechanics doesn't work properly.
-
+You can adjust the game’s resolution, but playing in full screen results in lag, and the game mechanics don't function correctly.
 
 ##### Good game & Have fun !!!
 
 ## Team composition
 
 The group is composed of 3 first-year students from ECE-Lyon <br />
+
 <table>
   <tr>
     <td>VELIN Jonathan</td>
