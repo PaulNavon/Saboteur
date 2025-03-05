@@ -1,10 +1,10 @@
 <font color="#609">
-<center>
+
 <code>
 Galactic Saboteur Project
 </code>
 
-</center>
+![Game First Screen](images\README\StartScreen.png)
 
 ## Welcome to Saboteur Space Edition
 
@@ -12,6 +12,56 @@ An evening with friends and nobody knows what to do?
 An afternoon with the family and everyone's bored?
 Why not try a game of Saboteur?
 It would be a great way to pass the time while making sure you have a good time together!
+
+You can adjust your game settings such as resolution, fps and full screen mode on "Settings".
+
+![Settings](images\README\Settings.png)
+
+When you start a game, you will first need to specify the number of players from 3 to 5.
+You have a slider to select, but you have to click on the possible positions of the slider to actually select a number.
+
+![Settings](images\README\NBPlayers.png)
+
+After selecting the number of players, you can select your username with your keyboard (only letters and numbers are managed).
+
+![Settings](images\README\ConfigPlayer.png)
+
+You can also select your super astronaut character : Superman, Skateboarder, Dreamer, Burger Lover and Sushi Man !
+
+| Astronaut1 | Astronaut2 | Astronaut3 | Astronaut4 | Astronaut5 |
+|---|---|---|---|---|
+| ![Astronaut1](images/Character/Character%201.png) | ![Astronaut2](images/Character/Character%202.png) | ![Astronaut3](images/Character/Character%203.png) | ![Astronaut4](images/Character/Character%204.png) | ![Astronaut5](images/Character/Character%205.png) |
+
+
+
+
+After, you can choose how many games you would like to play.
+
+![NBRounds](images\README\NBRounds.png)
+
+The game starts and for each player, as it is a local game, we added a break where you have to press a key on the keyboard to continue. 
+Sometimes, it isn't taking into account you press a key, so make sure you are still on the game window by clicking with your mouse.
+![Break](images\README\Break.png)
+
+CAPTAIN can start the game, and you'll see the board you'll be interacting with.
+At the top left, these are the cards CAPTAIN can play with.
+
+At the top right, you have de deck but also a white astronaut.
+The white astronaut is there if you want to stop your turn (either nothing more to do or a bug).
+
+On the left, you can see the player, and the one who is playing has his card revealed (to make sure you don't forget your role).
+On the board, you will the starting line with the earth and on the right 3 hidden planets with crystals.
+If a player gives you a debuff, it will appear on the "PLAYERS DEBUFF" area.
+
+![GamePlay](images\README\GamePlay.png)
+
+Finally, it's the end of the round, you will know who was the sabotor during the round.
+
+![WhoWasWho](images\README\Who.png)
+
+At the end of all the rounds, you will get the ranking and the winner !!
+
+![Ranking](images\README\Rank.png)
 
 --- 
 
@@ -72,9 +122,13 @@ Players can also give up if the path to all the cards seems impossible.
 In order to play the game, you will need a specific version of MinGW adapted to the Allegro5 library used in the project.
 The library is given as a zip file in the GitHub repository.
 
-You will first have to get the MinGW Installation Manager to get "mingw32-base bin" and "mingw32-gcc-g++ bin".
+You will first have to get the [MinGW Installation Manager ](https://sourceforge.net/projects/mingw/) to get "mingw32-base bin" and "mingw32-gcc-g++ bin".
+
+![MinGW](images\README\MinGW.png)
+
 MinGW will be installed at the root of your computer, on Windows, you can follow the path "C:\MinGW".
-As you dezip the library, you will get 3 folders : include, bin and lib.
+
+As you unzip the library, you will get 3 folders : include, bin and lib.
 You will take those folders and fuse them with the already existing folders of MinGW.
 You're now free to play !
 
@@ -132,5 +186,11 @@ The group is composed of 3 first-year students from ECE-Lyon <br />
     </td>
   </tr>
 </table>
+
+## Credits
+
+![img.png](images/README/Credits.png)
+
+An easter egg is hiding on this page ;)
 
 </font>
