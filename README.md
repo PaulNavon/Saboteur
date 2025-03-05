@@ -4,7 +4,7 @@
 Galactic Saboteur Project
 </code>
 
-![Game First Screen](images\README\StartScreen.png)
+![Game First Screen](images/README/StartScreen.png)
 
 ## Welcome to Saboteur Space Edition
 
@@ -15,16 +15,16 @@ It would be a great way to pass the time while making sure you have a good time 
 
 You can adjust your game settings such as resolution, fps and full screen mode on "Settings".
 
-![Settings](images\README\Settings.png)
+![Settings](images/README/Settings.png)
 
 When you start a game, you will first need to specify the number of players from 3 to 5.
 You have a slider to select, but you have to click on the possible positions of the slider to actually select a number.
 
-![Settings](images\README\NBPlayers.png)
+![Settings](images/README/NBPlayers.png)
 
 After selecting the number of players, you can select your username with your keyboard (only letters and numbers are managed).
 
-![Settings](images\README\ConfigPlayer.png)
+![Settings](images/README/ConfigPlayer.png)
 
 You can also select your super astronaut character : Superman, Skateboarder, Dreamer, Burger Lover and Sushi Man !
 
@@ -37,11 +37,11 @@ You can also select your super astronaut character : Superman, Skateboarder, Dre
 
 After, you can choose how many games you would like to play.
 
-![NBRounds](images\README\NBRounds.png)
+![NBRounds](images/README/NBRounds.png)
 
 The game starts and for each player, as it is a local game, we added a break where you have to press a key on the keyboard to continue. 
 Sometimes, it isn't taking into account you press a key, so make sure you are still on the game window by clicking with your mouse.
-![Break](images\README\Break.png)
+![Break](images/README/Break.png)
 
 CAPTAIN can start the game, and you'll see the board you'll be interacting with.
 At the top left, these are the cards CAPTAIN can play with.
@@ -53,15 +53,15 @@ On the left, you can see the player, and the one who is playing has his card rev
 On the board, you will the starting line with the earth and on the right 3 hidden planets with crystals.
 If a player gives you a debuff, it will appear on the "PLAYERS DEBUFF" area.
 
-![GamePlay](images\README\GamePlay.png)
+![GamePlay](images/README/GamePlay.png)
 
 Finally, it's the end of the round, you will know who was the sabotor during the round.
 
-![WhoWasWho](images\README\Who.png)
+![WhoWasWho](images/README/Who.png)
 
 At the end of all the rounds, you will get the ranking and the winner !!
 
-![Ranking](images\README\Rank.png)
+![Ranking](images/README/Rank.png)
 
 --- 
 
@@ -124,7 +124,7 @@ The library is given as a zip file in the GitHub repository.
 
 You will first have to get the [MinGW Installation Manager ](https://sourceforge.net/projects/mingw/) to get "mingw32-base bin" and "mingw32-gcc-g++ bin".
 
-![MinGW](images\README\MinGW.png)
+![MinGW](images/README/MinGW.png)
 
 MinGW will be installed at the root of your computer, on Windows, you can follow the path "C:\MinGW".
 
@@ -189,7 +189,7 @@ The group is composed of 3 first-year students from ECE-Lyon <br />
 
 ## Credits
 
-![img.png](images/README/Credits.png)
+![Credits](images/README/Credits.png)
 
 An easter egg is hiding on this page ;)
 
