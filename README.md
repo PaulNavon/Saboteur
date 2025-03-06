@@ -13,12 +13,8 @@ It would be a great way to pass the time while making sure you have a good time 
 
 You can adjust your game settings such as resolution, fps and full screen mode on "Settings".
 
-![Settings](images/README/Settings.png)
-
 When you start a game, you will first need to specify the number of players from 3 to 5.
 You have a slider to select, but you have to click on the possible positions of the slider to actually select a number.
-
-![Settings](images/README/NBPlayers.png)
 
 After selecting the number of players, you can select your username with your keyboard (only letters and numbers are managed).
 
@@ -68,7 +64,7 @@ Finally, it's the end of the round, you will know who was the sabotor during the
 
 ![WhoWasWho](images/README/Who.png)
 
-At the end of all the rounds, you will get the ranking and the winner !!
+At the end of all the rounds, you will get the ranking and the winner!
 
 ![Ranking](images/README/Rank.png)
 
@@ -169,35 +165,18 @@ The game has some issues with loading saved progress. We do not recommend quitti
 
 You can adjust the game’s resolution, but playing in full screen results in lag, and the game mechanics don't function correctly.
 
-##### Good game & Have fun !!!
+## Team composition & Credits
 
-## Team composition
-
-The group is composed of 3 first-year students from ECE-Lyon <br />
+The group is composed of 3 first-year students from ECE-Lyon: <br />
 
 <table>
   <tr>
-    <td>VELIN Jonathan</td>
-    <td>SCATENA Hugo</td>
-    <td>NAVON Paul </td>
-  </tr>
-  <tr>
-    <td style = "text-align: center">        
-        <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/62987115?s=88&amp;v=4" width="44" height="44" alt="@jonathan971">
-    </td>
-    <td style = "text-align: center">        
-        <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/74659612?s=88&amp;v=4" width="44" height="44" alt="@hugoscatena"> 
-    </td>
-    <td style = "text-align: center">
-        <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/74297743?s=88&amp;v=4" width="44" height="44" alt="@PaulNavon">
-    </td>
+    <td><a href="https://github.com/jonathan971">VELIN Jonathan</a></td>
+    <td><a href="https://github.com/hugoscatena">SCATENA Hugo  </a></td>
+    <td><a href="https://github.com/PaulNavon">NAVON Paul</a></td>
   </tr>
 </table>
 
-## Credits
-
-![Credits](images/README/Credits.png)
-
-An easter egg is hiding on this page ;)
+We thank our computer science teacher, <a href="https://github.com/antoinehintzy">Mr. Hintzy</a>, for the valuable help he provided us throughout this project.
 
 </font>
