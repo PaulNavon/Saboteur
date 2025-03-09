@@ -2,25 +2,25 @@
 
 # Saboteur Space Edition Project
 
-![Game First Screen](images/README/StartScreen.png)
+<img src="images/README/StartScreen.png" alt="Game First Screen" width="50%" height="100%"/>
 
 ## Welcome to Saboteur Space Edition
 
-An evening with friends and nobody knows what to do?
-An afternoon with the family and everyone's bored?
-Why not try a game of Saboteur?
-It would be a great way to pass the time while making sure you have a good time together!
+Spending an evening with friends and no one knows what to do? 
+Or an afternoon with family and everyone's bored? 
+Why not try a game of Saboteur? 
+It's a great way to pass the time while ensuring you all have fun together!
 
-You can adjust your game settings such as resolution, fps and full screen mode on "Settings".
+You can adjust your game settings, such as resolution, fps, and full-screen mode, in Settings.
 
-When you start a game, you will first need to specify the number of players from 3 to 5.
-You have a slider to select, but you have to click on the possible positions of the slider to actually select a number.
+When you start a game, you'll first need to specify the number of players, from 3 to 5. 
+Use the slider to select, but you must click on the possible positions of the slider to actually choose a number.
 
-After selecting the number of players, you can select your username with your keyboard (only letters and numbers are managed).
+After selecting the number of players, you can enter your username using the keyboard (only letters and numbers are allowed).
 
-![Settings](images/README/ConfigPlayer.png)
+<img src="images/README/ConfigPlayer.png" alt="Settings" width="50%" height="100%"/>
 
-You can also select your super astronaut character : Superman, Skateboarder, Dreamer, Burger Lover and Sushi Man !
+You can also choose your astronaut character.
 
 <table>
   <tr>
@@ -39,40 +39,42 @@ You can also select your super astronaut character : Superman, Skateboarder, Dre
   </tr>
 </table>
 
-After, you can choose how many games you would like to play.
+Afterward, you can choose the number of games you would like to play.
 
-![NBRounds](images/README/NBRounds.png)
+<img src="images/README/NBRounds.png" alt="NBRounds" width="50%" height="100%"/>
 
-The game starts and for each player, as it is a local game, we added a break where you have to press a key on the keyboard to continue. 
-Sometimes, it isn't taking into account you press a key, so make sure you are still on the game window by clicking with your mouse.
+The game begins, and for each player, since it is a local game, we added a pause where you need to press a key on the keyboard to proceed.
+Occasionally, the key press may not be registered, so ensure you're still focused on the game window by clicking on it with your mouse.
 
-![Break](images/README/Break.png)
+<img src="images/README/Break.png" alt="Break" width="50%" height="100%"/>
 
-CAPTAIN can start the game, and you'll see the board you'll be interacting with.
-At the top left, these are the cards CAPTAIN can play with.
+CAPTAIN can initiate the game, and you'll see the board you'll be interacting with.
+In the top-left corner, you'll find the cards that CAPTAIN can use.
 
-At the top right, you have de deck but also a white astronaut.
-The white astronaut is there if you want to stop your turn (either nothing more to do or a bug).
+In the top-right corner, there is the deck along with a white astronaut. 
+The white astronaut can be used to end your turn, either if there's nothing left to do or if a bug occurs.
+If all players have ended their turns using the white astronaut, the round concludes.
 
-On the left, you can see the player, and the one who is playing has his card revealed (to make sure you don't forget your role).
-On the board, you will the starting line with the earth and on the right 3 hidden planets with crystals.
-If a player gives you a debuff, it will appear on the "PLAYERS DEBUFF" area.
+On the left, you can see the players, and the current player's card is displayed to help them recall their role if necessary.
+The board features a starting line with Earth and three hidden planets with crystals on the right.
+Any debuffs applied to you will appear in the 'PLAYERS DEBUFF' section.
 
-![GamePlay](images/README/Gameplay.png)
+<img src="images/README/Gameplay.png" alt="Gameplay" width="50%" height="100%"/>
 
-Finally, it's the end of the round, you will know who was the sabotor during the round.
+Finally, at the end of the round, you will discover who was the saboteur during the round.
 
-![WhoWasWho](images/README/Who.png)
+<img src="images/README/Who.png" alt="WhoWasWho" width="50%" height="100%"/>
 
-At the end of all the rounds, you will get the ranking and the winner!
+After all rounds are completed, you'll see the final ranking and the winner will be announced.
 
-![Ranking](images/README/Rank.png)
+<img src="images/README/Rank.png" alt="Ranking" width="50%" height="100%"/>
 
 --- 
 
 ## Rules
 
 ### **Game Story :**
+
 Players take on the role of either an astronaut trying to reach a planet or an alien trying to block their path. Roles are hidden, and teams must work together while guessing each other's identities.
 
 - **Astronauts win**: They must build a path to the planet to earn galactic crystals.
@@ -108,14 +110,14 @@ On each turn, the player can:
 Or,
 - Discard 3 cards and end your turn
 
-If the player places a card, they must draw a new one from the deck (automatic). 
-Their turn is then over, and it is the next player's turn. 
-A path card must always be placed next to another path card. 
-Additionally, all paths leaving a card must continue on the adjacent card in the same direction.
+When a player places a card, the game will automatically draw a new one from the deck.
+Their turn then ends, and it becomes the next player's turn.
+Path cards must always be placed adjacent to another path card.
+Furthermore, all paths extending from a card must align and continue in the same direction on the adjacent card.
 
 ### **End Game:**
-If all players can no longer place cards on the board or if all players' hands are empty, then the game is over.
-Players can also give up if the path to all the cards seems impossible.
+The game ends if all players are unable to place cards on the board or if all players' hands are empty.
+Additionally, players can choose to surrender if the path to all the cards appears impossible.
 
 ### To your spaceships!
 
@@ -123,20 +125,22 @@ Players can also give up if the path to all the cards seems impossible.
 
 ## Launch the game on your computer
 
-In order to play the game, you will need a specific version of MinGW adapted to the Allegro5 library used in the project.
-The library is given as a zip file in the GitHub repository.
+To play the game, you will need a version of MinGW compatible with the Allegro 5 library used in the project. 
+The Allegro library is provided as a zip file in the GitHub repository.
 
-You will first have to get the [MinGW Installation Manager ](https://sourceforge.net/projects/mingw/) to get "mingw32-base bin" and "mingw32-gcc-g++ bin".
+First, you'll need to install [MinGW Installation Manager ](https://sourceforge.net/projects/mingw/) to get "mingw32-base bin" and "mingw32-gcc-g++ bin".
 
-![MinGW](images/README/MinGW.png)
+<img src="images/README/MinGW.png" alt="MinGW" width="50%" height="100%"/>
 
-MinGW will be installed at the root of your computer, on Windows, you can follow the path "C:\MinGW".
+MinGW will be installed at the root of your computer. On Windows, you can find it at the path C:\MinGW.
 
-As you unzip the library, you will get 3 folders : include, bin and lib.
-You will take those folders and fuse them with the already existing folders of MinGW.
-You're now free to play !
+As you unpack the library, you will get three folders: include, bin, and lib. 
+You will need to merge these folders with the existing ones in the MinGW directory.
 
-I didn't try on other OS, but I know we had somme issues with a MAC. (The CMakeList needs to be updated to be usable in this case.)
+And that's it, you're ready to go!
+
+I haven't tested this on other operating systems, but I know we encountered some issues on macOS. 
+In this case, the CMakeLists file will need to be updated to be functional.
 
 ## Sub-files, folders and utilities
 
@@ -161,22 +165,21 @@ Within these subfolders, you will find the following sub-subfolders:
 
 ## Problems and improvements
 
-The game has some issues with loading saved progress. We do not recommend quitting the game with the intention of resuming it later.
+The game currently experiences issues with loading saved progress, so we advise against quitting with the intention of resuming later.
+You can adjust the game's resolution, but please note that playing in full screen mode may cause lag and disrupt the proper functioning of game mechanics.
 
-You can adjust the game’s resolution, but playing in full screen results in lag, and the game mechanics don't function correctly.
-
-## Team composition & Credits
+## Context
 
 The group is composed of 3 first-year students from ECE-Lyon: <br />
 
 <table>
   <tr>
-    <td><a href="https://github.com/jonathan971">VELIN Jonathan</a></td>
-    <td><a href="https://github.com/hugoscatena">SCATENA Hugo  </a></td>
     <td><a href="https://github.com/PaulNavon">NAVON Paul</a></td>
+    <td><a href="https://github.com/hugoscatena">SCATENA Hugo  </a></td>
+    <td><a href="https://github.com/jonathan971">VELIN Jonathan</a></td>
   </tr>
 </table>
 
-We thank our computer science teacher, <a href="https://github.com/antoinehintzy">Mr. Hintzy</a>, for the valuable help he provided us throughout this project.
+Over the course of approximately 2-3 weeks, while balancing our regular classes, we dedicated our time to bringing this project to life. We extend our sincere gratitude to our computer science teacher, Mr. Hintzy (<a href="https://github.com/antoinehintzy">GitHub</a>), for his invaluable assistance and guidance throughout this project.
 
 </font>
